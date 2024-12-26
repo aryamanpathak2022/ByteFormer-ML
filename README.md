@@ -141,8 +141,8 @@ model = create_vit_byte_model(
 
 ![VIT](https://github.com/user-attachments/assets/d2350a36-e512-45b7-a185-9945a49cd01d)
 
+![ByteFormer](https://github.com/user-attachments/assets/07d2207c-44ab-4272-9c6d-2284e434f51a)
 
-![ByteFormer](https://github.com/user-attachments/assets/89ac7675-cd83-4c37-bad5-760a6ee315d5)
 
 
 
