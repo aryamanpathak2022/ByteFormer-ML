@@ -139,9 +139,11 @@ model = create_vit_byte_model(
 
 ### Explanation of the Image
 
-![VIT](https://github.com/user-attachments/assets/3d52d2a3-5a7d-4b6d-8ef5-1a972c66b95f)
+![VIT](https://github.com/user-attachments/assets/d2350a36-e512-45b7-a185-9945a49cd01d)
 
-![ByteFormer](https://github.com/user-attachments/assets/98413f2d-794a-46a1-b8fd-1e6ea1cdd9bd)
+
+![ByteFormer](https://github.com/user-attachments/assets/89ac7675-cd83-4c37-bad5-760a6ee315d5)
+
 
 
 
