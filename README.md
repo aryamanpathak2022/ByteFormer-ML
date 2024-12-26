@@ -209,9 +209,9 @@ By leveraging byte-level data, we can develop models that are more universally a
 
 ## Contributors
 
-1. Aryaman Pathak @aryamanpathak2022
+1. [Aryaman Pathak](https://github.com/aryamanpathak2022)
+2. [Aditya Priyadarshi](https://github.com/ap5967ap)
 
-2. Aditya Priyadarshi @ap5967ap
 
 ---
 
