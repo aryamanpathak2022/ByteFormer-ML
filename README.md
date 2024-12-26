@@ -111,7 +111,8 @@ model = create_vit_byte_model(
 
 ![VIT](https://github.com/user-attachments/assets/3d52d2a3-5a7d-4b6d-8ef5-1a972c66b95f)
 
-![BYTEFORMER](https://github.com/user-attachments/assets/7d43b67c-c4a8-4349-b938-2b5ae388f750)
+![ByteFormer](https://github.com/user-attachments/assets/98413f2d-794a-46a1-b8fd-1e6ea1cdd9bd)
+
 
 
 The diagram illustrates the workflow for both ViT and ByteFormer architectures:
@@ -132,9 +133,9 @@ The diagram illustrates the workflow for both ViT and ByteFormer architectures:
 
 ## Contributors
 
-2. Aryaman Pathak
+1. Aryaman Pathak
 
-3. Aditya Priyadarshi
+2. Aditya Priyadarshi
 
 ---
 
