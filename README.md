@@ -129,6 +129,36 @@ model = create_vit_byte_model(
 
 ---
 
+## ByteFormer Model Summary
+
+
+| Layer (type)                        | Output Shape              | Param #      |
+|-------------------------------------|---------------------------|--------------|
+| input_layer_9 (InputLayer)          | (None, 3072)              | 0            |
+| embedding (Embedding)               | (None, 3072, 128)         | 32,768       |
+| conv1d (Conv1D)                     | (None, 1536, 32)          | 12,320       |
+| positional_encoding_1               | (None, 1536, 32)          | 0            |
+| (PositionalEncoding)                |                           |              |
+| transformer_encoder_block_8         | (None, 1536, 32)          | 33,600       |
+| (TransformerEncoderBlock)           |                           |              |
+| transformer_encoder_block_9         | (None, 1536, 32)          | 33,600       |
+| (TransformerEncoderBlock)           |                           |              |
+| transformer_encoder_block_10        | (None, 1536, 32)          | 33,600       |
+| (TransformerEncoderBlock)           |                           |              |
+| transformer_encoder_block_11        | (None, 1536, 32)          | 33,600       |
+| (TransformerEncoderBlock)           |                           |              |
+| layer_normalization_25              | (None, 1536, 32)          | 64           |
+| (LayerNormalization)                |                           |              |
+| flatten_1 (Flatten)                 | (None, 49152)             | 0            |
+| dense_28 (Dense)                    | (None, 256)               | 12,583,168   |
+| dropout_37 (Dropout)                | (None, 256)               | 0            |
+| dense_29 (Dense)                    | (None, 10)                | 2,570        |
+
+**Total params:** 12,765,290 (48.70 MB)  
+**Trainable params:** 12,765,290 (48.70 MB)  
+**Non-trainable params:** 0 (0.00 B)
+
+
 
 
 
