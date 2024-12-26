@@ -120,14 +120,28 @@ The diagram illustrates the workflow for both ViT and ByteFormer architectures:
 - **ViT Path**: RGB image is patch-embedded, passed through positional encoding, and processed via transformer encoders.
 - **ByteFormer Path**: Image bytes are byte-embedded, passed through a 1D convolution layer, followed by positional encoding and transformer encoders.
 
----
+
 
 ---
 
+## Future Implications
+
+This approach of directly training models on bytes offers several advantages:
+
+- Generality: The same architecture can be applied to any file type, making it highly adaptable for diverse datasets.
+
+- Simplified Pipeline: Eliminates the need for modality-specific preprocessing, such as RGB processing for images or tokenization for text.
+
+- Efficiency: Direct byte processing can reduce the complexity of converting data into intermediate formats.
+
+By leveraging byte-level data, we can develop models that are more universally applicable and capable of handling a wide range of input types without significant architectural changes.
+
+---
 ## References
 
 - Original Paper: [Bytes Are All You Need](https://arxiv.org/pdf/2306.00238)
 - CIFAR-10 Dataset: [CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html)
+
 
 
 
@@ -139,7 +153,4 @@ The diagram illustrates the workflow for both ViT and ByteFormer architectures:
 
 ---
 
-## License
-
-This project is licensed under the [MIT License](./LICENSE).
 
