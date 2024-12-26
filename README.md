@@ -1,4 +1,4 @@
-# Bytes Are All You Need: Implementation
+# Bytes Are All You Need: CIFAR-10 Implementation
 
 This repository contains the implementation of the research paper ["Bytes Are All You Need"](https://arxiv.org/pdf/2306.00238), adapted for the CIFAR-10 dataset. Our work involves implementing both Vision Transformer (ViT) and ByteFormer architectures to evaluate their performance on image classification tasks.
 
